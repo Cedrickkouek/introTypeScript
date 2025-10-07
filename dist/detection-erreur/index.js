@@ -1,4 +1,3 @@
-"use strict";
 const values = [1, 2, 3, 4, 5, 6];
 if (values.length > 2) {
     console.log("Array has more than two items");
@@ -11,3 +10,4 @@ function greet(user) {
 }
 const user = { username: "Yann" };
 greet(user);
+export {};
